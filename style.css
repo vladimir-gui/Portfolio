@@ -1,0 +1,358 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color_theme1:#D89584;
+    --color_theme2:#F4F4F4;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.cover {
+    background: url("cover_overlay.png") no-repeat center/100% 100% ,url("cover.jpg") no-repeat center/cover;
+    height: 360px;
+}
+
+img.cover_profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 50px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 42px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 34px;
+    margin-top: 0px;
+}
+
+div.cover p {
+    color: lightgray;
+    text-align: center;
+    position: relative;
+    margin-top: 5px;
+}
+
+div.cover_contact {
+    /*background-color: #FF000080;*/
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    border-left: 4px solid var(--color_theme1);
+    padding-left: 8px;
+    font-size: 14px;
+}
+
+div.cover_contact p {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*je selectionne le premier "p" de la div cover_contact*/
+div.cover_contact p:first-child {
+    margin-bottom: 14px;
+}
+
+div.cover_contact * {
+    color: white;
+    font-size: 14px;
+}
+
+a.contact_button {
+    border: 3px solid var(--color_theme1);
+    padding: 8px 20px;
+    text-decoration: none;
+    color: var(--color_theme1);
+    text-transform: uppercase;
+    background-color: #00000040;
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+a.contact_button_portfolio {
+    position: absolute;
+    right:20px;
+    top: 8px;
+}
+
+a.contact_button:hover {
+    color: white;
+    border: 3px solid white;
+}
+
+.section {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+
+div.section_grise1 {
+    background: url(triangle2white.svg) no-repeat center bottom -1px/100%;
+    background-color: var(--color_theme2);
+    padding-bottom: 70px;
+}
+
+div.section_grise2 {
+    background: url(triangle1white.svg) no-repeat center top/100%;
+    background-color: var(--color_theme2);
+    padding-top: 70px;
+}
+
+div.separateur_gris {
+    border: 1px solid #979797;
+    width: 150px;
+    position: relative;
+    left: 50%;
+    margin-left: -75px;
+    margin-bottom: 10px;
+}
+
+div.section_grise1 p {
+    font-size: 22px;
+    color: #656565;
+    text-align: center;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+img.col-contenu {
+    width: 40%;
+}
+
+div.col-contenu {
+    width: 60%;
+    padding-left: 16px;
+}
+
+.float-right {
+    float: right;
+}
+
+div.texte-avec-ligne-verticale {
+    border-left: 4px solid var(--color_theme1);
+    padding-left: 8px;
+    height: 50px;
+    display: inline-block;
+}
+
+div.texte-avec-ligne-verticale p {
+    margin-top: 0;
+}
+
+a.texte-avec-ligne-verticale {
+    margin-top: 0%;
+    border-left: 4px solid var(--color_theme1);
+    padding-left: 8px;
+}
+
+div.barre-verticale {
+    height: 50px;
+    width: 4px;
+    background-color: var(--color_theme1);
+    margin-right: 8px;
+}
+
+.col_portfolio {
+    width: 47%;
+}
+
+div.frame {
+    margin: 30px 50px;
+    padding: 20px 30px;
+    background-color: white;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+div.frame img {
+    width: 100px;
+}
+
+p.frame_title {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*PORTFOLIO*/
+.portfolio-header {
+    height: 90px;
+    background: url("header.jpg") no-repeat center/cover;
+    position: relative;
+}
+
+.portfolio-header-title {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-left: 8px;
+    display: inline-block;
+}
+
+h1.portfolio {
+    color: #656565;
+    font-size: 46px;
+    line-height: 1;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+h2.portfolio {
+    font-weight: normal;
+    color: black;
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+a.portfolio-back {
+    margin-left: -10px;
+    color: var(--color_theme1)
+}
+
+img.portfolio {
+    width: 70%;
+    max-width: 475px;
+}
+
+/*IFRAME CONTACT*/
+iframe {
+    width: 100%;
+    border: none;
+    height: 350px;
+}
+
+.display-mobile {
+    display: none;
+}
+
+/*PARTIE MOBILE - RESPONSIVE*/
+@media only screen and (max-width: 767px) {
+    img.cover_profile {
+        height: 90px;
+        margin-top: 75px;
+    }
+    
+    h1 {
+        font-size: 38px;
+        margin-top: 6px;
+        margin-bottom: 0px;
+    }
+    
+    div.cover p {
+        color: lightgray;
+        text-align: center;
+        position: relative;
+        margin-top: 2px;
+    }
+
+    .section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    div.section_grise1 {
+        padding-bottom: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    img.col-contenu {
+        width: 100%;
+    }
+
+    div.col-contenu {
+        width: 100%
+    }
+
+    .col_portfolio {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    div.frame {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        background-color: white;
+        box-shadow: none;
+    }
+
+    div.frame img {
+        width: 70px;
+    }
+    
+    p.frame_title {
+        font-size: 30px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    /*PORTFOLIO*/
+    .portfolio-header-title {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-left: 4px;
+    }
+
+    a.contact_button {
+        padding: 7px 12px;
+        margin-top: 22px;
+        font-size: 12px;
+    }
+    
+    a.contact_button_portfolio {
+        right:8px;
+        top: 5px;
+    }
+
+    h1.portfolio {
+        color: #656565;
+        font-size: 40px;
+        line-height: 1;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    
+    h2.portfolio {
+        font-weight: normal;
+        color: black;
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+    img.portfolio {
+        width: 100%;
+    }
+
+    .display-mobile {
+        display: block;
+    }
+}
