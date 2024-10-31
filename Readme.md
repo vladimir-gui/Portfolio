@@ -2,15 +2,14 @@
 
 <h2 align="center">Portfolio de Vladimir Guillochet</h2>
 
-# Description
+#### Description
 <p align="center">
   Ce portfolio permet de présenter les compétences acquises de manière autonome ou lors de formations certifiantes.
 </p>
 
-# URL
+#### URL
 <p align="center">
 L'url du site est : https://vladimir-gui.github.io/Portfolio/index.html
 </p>
-
 
 <h4 align="center">2024 Guillochet Vladimir</h4>
