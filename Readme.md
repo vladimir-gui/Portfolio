@@ -3,9 +3,6 @@
 <h2 align="center">Portfolio de Vladimir Guillochet</h2>
 
 # Description
-Before using pygwalker, make sure to install the packages through the command line using pip or conda.
-
-
 <p align="center">
   Ce portfolio permet de présenter les compétences acquises de manière autonome ou lors de formations certifiantes.
 </p>
