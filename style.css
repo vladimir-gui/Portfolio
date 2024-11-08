@@ -180,6 +180,7 @@ div.barre-verticale {
 
 .col_portfolio {
     width: 47%;
+    height: 30vh; /* 30% de la hauteur de la fenêtre */
 }
 
 div.frame {
