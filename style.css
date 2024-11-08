@@ -209,18 +209,19 @@ p.frame_title {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20px; /* Ajoute de l'espace entre les éléments */
+    gap: 20px;
 }
 
 .col_portfolio {
-    flex: 1 1 calc(45% - 20px); /* Ajuste la largeur des colonnes */
-    box-sizing: border-box; /* Inclut les bordures et les marges dans la largeur totale */
-    margin-bottom: 20px; /* Ajoute de l'espace en bas pour éviter le chevauchement */
+    flex: 1 1 calc(50% - 20px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 .portfolio-table {
     width: 100%;
-    height: 100%;
+    flex: 1;
     border-collapse: collapse;
 }
 
@@ -228,6 +229,13 @@ p.frame_title {
     width: 100%;
     height: auto;
 }
+
+@media (max-width: 768px) {
+    .col_portfolio {
+        flex: 1 1 100%;
+    }
+}
+
 
 
 /* BACKUP
