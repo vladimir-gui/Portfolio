@@ -230,11 +230,15 @@ p.frame_title {
     height: auto;
 }
 
+
+
+/*
 @media (max-width: 768px) {
     .col_portfolio {
         flex: 1 1 100%;
     }
 }
+*/
 
 
 
