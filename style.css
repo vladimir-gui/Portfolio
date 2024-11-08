@@ -237,16 +237,11 @@ p.frame_title {
 }
 
 
-
-
-
-/*
 @media (max-width: 768px) {
     .portfolio-container {
         grid-template-columns: 1fr;
     }
 }
-*/
 
 
 
