@@ -180,9 +180,6 @@ div.barre-verticale {
 
 .col_portfolio {
     width: 47%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    margin: 10px;
 }
 
 div.frame {
@@ -210,6 +207,7 @@ p.frame_title {
     position: relative;
 }
 
+/*
 .portfolio-header-title {
     color: white;
     font-size: 26px;
@@ -218,6 +216,7 @@ p.frame_title {
     padding-left: 8px;
     display: inline-block;
 }
+*/
 
 h1.portfolio {
     color: #656565;
