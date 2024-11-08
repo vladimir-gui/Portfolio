@@ -207,7 +207,7 @@ p.frame_title {
 
 .portfolio-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
@@ -237,10 +237,13 @@ p.frame_title {
 }
 
 
+
+
+
 /*
 @media (max-width: 768px) {
-    .col_portfolio {
-        flex: 1 1 100%;
+    .portfolio-container {
+        grid-template-columns: 1fr;
     }
 }
 */
