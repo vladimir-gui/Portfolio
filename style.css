@@ -173,19 +173,17 @@ a.texte-avec-ligne-verticale {
 
 /*Gestion de la barre verical gauche contenu*/
 .barre-cell {
-    position: relative;
-    width: 10px;
-    top: 50%;
+    display: flex;
+    align-items: center; /* Centre verticalement la barre */
+    justify-content: center; /* Centre horizontalement la barre */
+    width: 20px; /* Ajustez la largeur selon vos besoins */
 }
 
 div.barre-verticale {
-    position: absolute;
     height: 50px;
     width: 4px;
     background-color: var(--color_theme1);
     margin-right: 8px;
-    top: 50%;
-    transform: translate(-50%, -50%); /* Centre la barre verticalement et horizontalement */
 }
 /*FIN Gestion de la barre verical gauche contenu*/
 
