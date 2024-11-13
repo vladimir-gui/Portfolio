@@ -188,7 +188,6 @@ div.barre-verticale {
 }
 /*FIN Gestion de la barre verical gauche contenu*/
 
-
 /*PORTFOLIO*/
 .col_portfolio {
     width: 47%;
@@ -211,7 +210,6 @@ p.frame_title {
     margin-bottom: 20px;
     text-align: center;
 }
-
 
 .section_grise2 {
     padding: 20px;
@@ -248,14 +246,11 @@ p.frame_title {
     vertical-align: bottom;
 }
 
-
 @media (max-width: 768px) {
     .portfolio-container {
         grid-template-columns: 1fr;
     }
 }
-
-
 
 /* BACKUP
 .portfolio-header {
