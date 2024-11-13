@@ -171,13 +171,18 @@ a.texte-avec-ligne-verticale {
     padding-left: 8px;
 }
 
+.barre-cell {
+    display: flex;
+    align-items: center; /* Centre verticalement la barre */
+    justify-content: center; /* Centre horizontalement la barre */
+    width: 20px; /* Ajustez la largeur selon vos besoins */
+}
+
 div.barre-verticale {
     height: 50px;
     width: 4px;
     background-color: var(--color_theme1);
     margin-right: 8px;
-    display: flex;
-    align-items: center; /* Centre verticalement la barre */
 }
 
 .col_portfolio {
