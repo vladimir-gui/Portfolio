@@ -187,8 +187,16 @@ div.barre-verticale {
 }
 /*FIN Gestion de la barre verical gauche contenu*/
 
-.col_portfolio {
+
+/*PORTFOLIO*/
+
+/*.col_portfolio {
     width: 47%;
+}*/
+
+.col_portfolio {
+    display:flex;
+    flex-direction: column;
 }
 
 div.frame {
@@ -209,7 +217,7 @@ p.frame_title {
     text-align: center;
 }
 
-/*PORTFOLIO*/
+
 .section_grise2 {
     padding: 20px;
 }
