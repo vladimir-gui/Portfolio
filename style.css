@@ -175,6 +175,7 @@ a.texte-avec-ligne-verticale {
 .barre-cell {
     position: relative;
     width: 10px;
+    top: 50%;
 }
 
 div.barre-verticale {
