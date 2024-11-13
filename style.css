@@ -183,6 +183,7 @@ div.barre-verticale {
     width: 4px;
     background-color: var(--color_theme1);
     margin-right: 8px;
+    top: 50%;
     transform: translate(-50%, -50%); /* Centre la barre verticalement et horizontalement */
 }
 /*FIN Gestion de la barre verical gauche contenu*/
