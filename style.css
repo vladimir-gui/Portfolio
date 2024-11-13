@@ -173,10 +173,8 @@ a.texte-avec-ligne-verticale {
 
 /*Gestion de la barre verical gauche contenu*/
 .barre-cell {
-    display: flex;
-    align-items: center; /* Centre verticalement la barre */
-    justify-content: center; /* Centre horizontalement la barre */
-    width: 20px; /* Ajustez la largeur selon vos besoins */
+    postition: relative;
+    width: 10px;
 }
 
 div.barre-verticale {
@@ -189,14 +187,8 @@ div.barre-verticale {
 
 
 /*PORTFOLIO*/
-
-/*.col_portfolio {
-    width: 47%;
-}*/
-
 .col_portfolio {
-    display:flex;
-    flex-direction: column;
+    width: 47%;
 }
 
 div.frame {
