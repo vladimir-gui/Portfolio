@@ -177,6 +177,7 @@ a.texte-avec-ligne-verticale {
     align-items: center; /* Centre verticalement la barre */
     justify-content: center; /* Centre horizontalement la barre */
     width: 20px; /* Ajustez la largeur selon vos besoins */
+    height: 100%;
 }
 
 div.barre-verticale {
