@@ -171,6 +171,7 @@ a.texte-avec-ligne-verticale {
     padding-left: 8px;
 }
 
+/*Gestion de la barre verical gauche contenu*/
 .barre-cell {
     display: flex;
     align-items: center; /* Centre verticalement la barre */
@@ -184,6 +185,7 @@ div.barre-verticale {
     background-color: var(--color_theme1);
     margin-right: 8px;
 }
+/*FIN Gestion de la barre verical gauche contenu*/
 
 .col_portfolio {
     width: 47%;
