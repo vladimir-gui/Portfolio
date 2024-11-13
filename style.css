@@ -180,7 +180,7 @@ a.texte-avec-ligne-verticale {
     height: 100%;
 }
 
-div.barre-verticale {
+.barre-verticale {
     /*height: 50px;*/
     height: 100%;
     width: 4px;
