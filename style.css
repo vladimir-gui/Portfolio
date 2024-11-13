@@ -181,8 +181,7 @@ a.texte-avec-ligne-verticale {
 }
 
 .barre-verticale {
-    /*height: 50px;*/
-    height: 100%;
+    height: 50px;
     width: 4px;
     background-color: var(--color_theme1);
     margin-right: 8px;
